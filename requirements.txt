@@ -1,0 +1,10 @@
+numpy>=2.3
+scikit-learn==1.7.2
+torch>=2.2
+tsai==1.0.1
+joblib>=1.5
+aeon>=1.5
+# numba (von aeon gebraucht) ab 0.63 gibt es fertige Pakete für Python 3.14
+numba>=0.63
+# nur für die Tests
+pytest>=8
